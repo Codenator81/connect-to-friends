@@ -2,23 +2,23 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: connect_to_frend_development
+  database: connect_dev
   pool: 5
-  username: connect_to_frend
+  username: con
   password: root
 
-
+test:
   adapter: postgresql
   encoding: unicode
-  database: connect_to_frend_test
+  database: connect_test
   pool: 5
-  username: connect_to_frend
+  username: con
   password: root
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: connect_to_frend_production
+  database: connect_prod
   pool: 5
-  username: connect_to_frend
+  username: con
   password: root
